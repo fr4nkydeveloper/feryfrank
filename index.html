@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ferny y Frank</title>
+    <!-- Bootstrap 3.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome 4.2.0 -->
+	<link href="css/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- ilove Font 1.0 -->
+	<link href="css/ilove/font-ilove.css" rel="stylesheet">   
+    <!-- Animate -->
+	<link rel="stylesheet" href="css/animate.css">
+    <!-- Magnific popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Custom Style -->
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+    <audio controls autoplay>
+      <source src="music/complice_eterno.ogg" type="audio/ogg">
+      <source src="music/complice_eterno.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+
+  	<!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+    </div>
+   
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide carousel-fade">   
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    		<div id="progressbar"></div>
+            <!-- Wrapper for slides -->           
+            <div class="carousel-inner">
+                <div class="messages">
+                        <h1 class="slideInDown wow animated" data-wow-delay="0.5s">Ferny<span class="heart pulsing fa fa-heart"></span> Frank</h1>
+                        <div id="time"></div>
+                        <h4 class="fadeIn wow animated" data-wow-delay="1.2s">Y contando...</h4>
+                        <div class="btn-special slideInUp wow animated page-scroll" data-wow-delay="0.7s">
+                            <a href="index.html#about"><span>NUESTRA HISTORIA</span></a>
+                        </div>          
+                </div>
+                <div class="item active">
+                	<div class="carousel-img" style="background-image:url(images/cancun.jpg)"></div>                            
+                </div> 
+                <div class="item">
+                	<div class="carousel-img" style="background-image:url(images/cancun2.jpg)"></div>                            
+                </div>
+                <div class="item">
+                	<div class="carousel-img" style="background-image:url(images/cu.jpg)"></div>                            
+                </div>                                              
+            </div>
+            <div class="overlay2"></div>               	
+            <div id="geo" class="geo">
+               <div id="output" class="geo">
+               </div>
+            </div>             
+    </div>
+    
+	<div id="about"></div>    
+    <!--Navbar-->
+    <div class="topbar-nav">        
+        <nav class="navbar navbar-default navbar-custom" role="navigation">
+        	<div class="container">        
+                <div class="navbar-header page-scroll MenuArdilla">
+                    <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button> -->
+                    <h3 class="titleMenu">Te amo ardilla</h3>                             
+                </div>
+   
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <!--<ul class="nav navbar-nav">
+                   
+                        <li class="hidden">
+                            <a href="index.html#page-top"></a>
+                        </li>                                               
+                        <li class="page-scroll">
+                            <a href="index.html#about">Ferny & Frank</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="index.html#family">Our Family</a>
+                        </li>                        
+                        <li class="page-scroll dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#moments">Big Moments</a>
+                            <ul class="dropdown-menu wow swing" role="menu">
+                            	<li><a href="wedding.html">Wedding Event</a></li>
+                                <li><a href="index.html#">Birthday</a></li>
+                                <li><a href="index.html#">Graduation</a></li>
+                            </ul>                             
+                        </li>
+                        <li class="page-scroll">
+                            <a href="index.html#favourites">Favorite List</a>                           
+                        </li>  
+						<li class="page-scroll dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html#blog">Our Blog</a>
+                            <ul class="dropdown-menu wow swing" role="menu">
+                            	<li><a href="category.html">Category Page</a></li>
+                                <li><a href="post.html">Single Post</a></li>
+                                <li><a href="404.html">404 Error Page</a></li>
+                            </ul>
+                        </li>                                                        
+                        <li class="page-scroll">
+                            <a href="index.html#contactus">Contact</a>
+                        </li>
+                    </ul> -->
+                </div>
+    
+            
+        	</div>
+        </nav>
+	</div>   
+    
+	<!--Ferny & Frank Section-->
+    <section id="aboutthem" class="white">
+        <div class="container">
+        <div class="row">
+            	<div class="col-md-12">
+                	<div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Un destino inevitable..</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+                        	Crecimos en el mismo vecindario, pero el destino decidio ENAMORARNOS un viernes
+                            que parec&iacute;a ser un d&iacute;a cualquiera, ¿Cu&aacute;l fue el pretexto perfecto? un partido de futbol, acordamos verlos juntos por la noche, aparecio un chango en la conversaci&oacute;n y la magia comenzo a suceder...
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
+                            <li>
+                                <div class="ch-item ch-img-1">
+                                    <div class="ch-info">
+                                        <h3>Yo soy Frank</h3>
+                                        <p> Soy un ser totalmente imperfecto, buscando enamorar nuevamente a su
+                                        ardillita y reducir gradualmente mis errores.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>	
+                    </div>
+                    <div class="and">&amp;</div> 
+                    <div class="col-md-6">
+                        <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info">
+                                        <h3>Yo soy Ferny</h3>
+                                        <p>Tambi&eacute;n soy un ser imperfecto, estoy confundida, ¿Valdr&aacute; la pena volver a intentarlo?</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>	
+                    </div>              
+            	</div>
+            </div>
+        </div>        
+        <!--Loveline-->
+        <div class="container">                    
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Momentos Favoritos</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+                        	<strong>Estos momentos</strong> quedar&aacute;n en nuestra memoria y corazones por el resto de nuestras vidas
+                        </p>
+                    </div>                
+                     <ul class="timeline"> 
+                        <li> 
+                            <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-lips"></i></div> 
+                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Nuestro primer beso</h4>
+                                    <p><small class="text-muted">Octubre - 2013</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                       Hare krishna intercedio por nosotros y en las bancas del parque de Bellas Artes intercambiamos nuestros primeros fluidos. ESTUVO INCREÍBLE!
+                                       Nota: Fernanda se hacia del rogar y le costo mucho trabajo a Frank robarle un beso..¿Todo lo que vale la pena cuesta trabajo cierto? 
+
+                                    </p>
+                                </div> 
+                            </div> 
+                        </li>
+                         
+                        <li class="timeline-inverted negative100"> 
+                            <div class="timeline-badge time wow fadeInUp" data-wow-delay="0.5s"><i class="fas fa-bus"></i></div> 
+                            <div class="timeline-panel wow fadeInRight" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Escapada a las Grutas!</h4>
+                                    <p><small class="text-muted">DICIEMBRE 2013</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Decidimos emprender nuestro primer viaje juntos, mucha adrenalina, poco dinero, juegos divertidos...mucho amor..
+                                    </p>                                      
+                                </div> 
+                            </div> 
+                        </li>
+                        
+                        <li class="negative75"> 
+                            <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-pregnancy"></i></div> 
+                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">NUESTROS SUEÑOS</h4>
+                                    <p><small class="text-muted">2014-2015</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Aparecio una bb llamada Sofy, una camioneta gris, un viaje a Hawai y muchos sueños más
+                                    </p>
+                                </div> 
+                            </div> 
+                        </li>
+                        
+                        <li class="timeline-inverted negative50"> 
+                            <div class="timeline-badge time wow fadeInUp" data-wow-delay="0.5s"><i class="fas fa-paw"></i></div> 
+                            <div class="timeline-panel wow fadeInRight" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Llegada de Jr</h4>
+                                    <p><small class="text-muted">ABRIL - 2016</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                       Nuestro momento favorito, llegó un ser increíble a alegrar nuestros días, te amamos Jr
+                                    </p>                                      
+                                </div> 
+                            </div> 
+                        </li>
+                        
+                        <li class="negative75"> 
+                            <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="fas fa-plane"></i></div> 
+                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">PUERTO ESCONDIDO Y CANC&Uacute;N</h4>
+                                    <p><small class="text-muted">2017</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Creo que en nuestra vida pasada fuimos fishes, fueron nuestros primeros viajes en avi&oacute;n, definitivamente en la playa pasaremos la mayor&iacute;a de nuestras vacaciones <3
+                                    </p>
+                                </div> 
+                            </div> 
+                        </li>
+                    </ul>    
+                </div>
+            </div>                               
+    	</div>
+        <!--<div class="separator"></div> -->      
+    </section>
+
+    <!--Family Section-->  
+    <section id="family" class="white">
+        <div class="container">    
+            <div class="row">     
+                      	
+                <div class="col-md-12">
+                    <!--<div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Family Members</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>  
+                    <div class="col-md-4 man-family">
+                    	<h3>Adams' Family</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                    	<div id="owl-man-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-1.jpg" alt="team" />
+                                    <h4>Bill Swan</h4>
+                                    <h5>Father</h5>
+                                </div>                           
+                            </div> 
+                            
+                           	<div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-2.jpg" alt="team" />
+                                    <h4>Christina lewis</h4>
+                                    <h5>mother</h5>
+                                </div>                           
+                            </div> 
+                                                        
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-5.jpg" alt="team" />
+                                    <h4>Every Swan</h4>
+                                    <h5>Brother</h5>
+                                </div>                            
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-6.jpg" alt="team" />                        
+                                    <h4>lexy Swan</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>                                                                                                                       
+                    	</div>            
+                 	</div> -->
+                   <!-- <div class="col-md-4">
+                    	<img class="img-responsive" src="images/couple-standing.jpg" alt="couple" />
+                    </div> 
+                    <div class="col-md-4 woman-family">
+                    	<h3>Eves' Family</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                    	<div id="owl-woman-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-3.jpg" alt="team" />
+                                    <h4>Martin Nos</h4>
+                                    <h5>Father</h5>
+                                </div>                            
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-4.jpg" alt="team" />                        
+                                    <h4>Marria Grace</h4>
+                                    <h5>Mother</h5>
+                                </div>                            
+                            </div>  
+                                                        
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-7.jpg" alt="team" />
+                                    <h4>Owen Martin</h4>
+                                    <h5>Brother</h5>
+                                </div>                            
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-8.jpg" alt="team" />                        
+                                    <h4>Hanna Martin</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>                                                                                                                    
+                    	</div>            
+                 	</div>  -->
+                    <!--Fun Facts-->
+                    <div id="startcounting" class="row count">
+                        <div class="col-md-12">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.5s">
+                                <h2 class="wow fadeIn underline padtop50">Actividades juntos</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.7s">A pesar de ser completamente distintos, hemos aprendido a compartir nuestro tiempo mezclando gustos personales, y si bien aveces hay desacuerdos, las cosas van a mejorar</p>
+                            </div>                                                   
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                            	<div class="fun-facts ico"><span class="icon icolove-movie"></span></div>
+                                <span class="counts" data-from="0" data-to="60" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>Pel&iacute;culas vistas</h5>
+                            </div>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <div class="fun-facts ico"><span class="icon"><i class="fas fa-utensils"></i></span></div>
+                                <span class="counts" data-from="0" data-to="2000" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>TACOS</h5>
+                            </div>                
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <div class="fun-facts ico"><span class="icon icolove-party"></span></div>
+                                <span class="counts" data-from="0" data-to="70" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>Fiestas</h5>
+                            </div>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <div class="fun-facts ico"><span class="icon"><i class="fas fa-smile"></i></span></div>
+                                <span class="counts" data-from="0" data-to="900" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>Demoniadas</h5>
+                            </div>                                                
+                        </div>
+                    </div>                       
+                                         
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <!--Big Moments-->
+    <section id="moments">
+    	<!--<div class="container-fluid">
+            <div class="row">
+            	<div class="padtop75 white"></div>
+                <div class="col-lg-12 video-parallax">       	
+                    <div class="overlay"></div>
+                    <video id="bgvideo" preload="auto" autoplay loop muted="muted">
+                       <source src="http://www.webyzona.com/templates/themeforest/ilove/video/wedding.webm" type="video/webm">
+                       <source src="video/wedding.mp4" type="video/mp4">
+                       <source src="http://www.webyzona.com/templates/themeforest/ilove/video/wedding.ogg" type="video/ogg">
+                       Your browser does not support the video element.
+                    </video>            
+                    <div class="col-md-12 playvid">
+                        <a class="fa fa-play-circle popup-vimeo wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.9s" href="http://vimeo.com/54428266"></a>                    
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+		<div class="container-fluid white">        	
+            <!--Moments to remember-->
+        	<div class="container">           
+                <div class="row">            
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Algunas de nuestras fotos</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.7s">Sin ser los m&aacute;s sexys, ¿Hacemos bonita pareja cierto?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bigmoments">
+            	<div id="owl-moments" class="owl-carousel">
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/uno.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/uno.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Fiesta en la cuadra</h4>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/dos.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/dos.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>De a osos con pelos</h4> 
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/tres.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/tres.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Oaxtepec, de nuestros d&iacute;as favoritos</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/cuatro.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/cuatro.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Pelos roncando</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/cinco.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/cinco.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Fiesta de kiko</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>	
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/seis.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/seis.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>¿En una boda?</h4>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>   
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/siete.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/siete.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>¿Se va a hacer o no se va a hacer la carnita asada?</h4> 
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/ocho.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/ocho.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Beso eterno</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/nueve.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/nueve.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Ferny y oso</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/diez.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/diez.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <span>Salida de Karen</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/once.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/once.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Nemo y doris</h4>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/doce.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/doce.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Jr en casa de abuelos</h4> 
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/trece.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/trece.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Dinamos</h4>   
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>	
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/veinte.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/veinte.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Con la oso</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>   
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/quince.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/quince.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Cuidando a pelos</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/dieciseis.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/dieciseis.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Jr bb</h4>  
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>                        
+             	</div>
+             </div>
+            <!--Special Events-->
+        	<!--<div class="container">                           
+                <div class="row">            
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Special Events</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                	<div class="col-md-4">
+                    	<div class="event wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-home"></i>
+                            <h4 class="text-uppercase">Moved to our new home</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-plane"></i>
+                            <h4 class="text-uppercase">Malaysia Trip</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-car"></i>
+                            <h4 class="text-uppercase">Got Our New Car</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-like"></i>
+                            <h4 class="text-uppercase">Adam Got His Dream Job</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-graduate"></i>
+                            <h4 class="text-uppercase">EVE honored her PhD</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-football"></i>
+                            <h4 class="text-uppercase">Attended Brazil Worldcup</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>  -->                                            	
+            <div class="separator"></div>
+        
+        </div>
+	</section>
+	
+    <!--Favourites List-->
+    <section id="favourites" class="white">       
+        <div class="container">
+        	<div class="row">           	
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeIn underline padtop50" data-wow-delay="0.5s">Datos sobre nosotros</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">Contrario a lo que la gente piensa, nosotros no necesitamos tener muchas cosas en com&uacute;n para ser felices, nos complementamos muy bien <3</p>
+                    </div>                         
+                </div>
+                <div class="col-md-12 favlist">				
+                    <img src="images/catorce.jpg" alt="couple">
+                    <div class="favlist-title">
+                        <div class="favlist-name">Frank</div>
+                        <div class="favlist-name">Fer</div>
+                    </div>
+                    
+                    <ul class="timeline">
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Comida favorita"><i class="icon icolove-meal"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Tacos</h4>
+                                <p> Ella me volvio adicto... mis favoritos son los del puesto de la Guerrero </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Tacos y pozole</h4>
+                                <p>A mi me encantan los tacos de la paneder&iacute;a y el pozole de la casa de toño </p>
+                            </div>                        
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Pelicula favorita"><i class="icon icolove-film"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Fight Club</h4>
+                                <p>Cuando estoy bajoneado, esta pelicula me inspira a cambiar mi vida</p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Como si fuera la primera vez</h4>
+                                <p>Soy muy rom&aacute;ntica, me gustan los detalles y el no lo entiende :((  es un lol</p>
+                            </div>                        
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Equipo favorito"><i class="far fa-futbol"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Cruz Azul</h4>
+                                <p> Sueño verla vestida con una playera del azul, se veria mas bonita ;)</p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Chivas</h4>
+                                <p>Una apuesta en un partido de futbol fue el pretexto perfecto para vernos</p>
+                            </div>                        
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favourite Pet"><i class="icon icolove-pet"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Perros</h4>
+                                <p>Desde que tengo memoria amo los perros, son seres incre&iacute;bles <3 </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Perros</h4>
+                                <p>Jr es mi adoraci&oacute;n, ese travieso el rey de la casa, nos hace muy felices! <3 </p>
+                            </div>                        
+                            
+                            
+                        </li>
+                    </ul>
+                                
+                </div>
+                
+        	</div>            
+      	</div>       
+        <!--common Favorites Parallax-->
+        <!--<div class="container-fluid commonfav">
+        	<div class="row">
+                <div class="col-lg-12 parallax-section common-parallax">
+                    <div class="overlay"></div>
+                    <div class="col-md-12">
+                        <h2 class="underline2 wow fadeIn" data-wow-delay="0.5s">Common Favorites</h2>
+                        <div id="owl-common" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-place common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Place"></div>
+                                    <h4>Maldive Islands</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-book common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Book"></div>
+                                    <h4>Pride and Prejudice</h4>
+                                </div>                                                       
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-weather common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Season"></div>
+                                    <h4>Winter & Spring</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-music common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Song"></div>
+                                    <h4>Your Song - Elton John</h4>
+                                </div>                                                       
+                            </div>
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-mic common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Singer"></div>
+                                    <h4>Frank Sinatra</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-clothes common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Brand"></div>
+                                    <h4>Dolce and Gabbana</h4>
+                                </div>                                                       
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-place common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Place"></div>
+                                    <h4>Maldive Islands</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-book common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Book"></div>
+                                    <h4>Pride and Prejudice</h4>
+                                </div>                                                       
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-weather common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Season"></div>
+                                    <h4>Winter & Spring</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-music common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Song"></div>
+                                    <h4>Your Song - Elton John</h4>
+                                </div>                                                       
+                            </div>
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-mic common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Singer"></div>
+                                    <h4>Frank Sinatra</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-clothes common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Brand"></div>
+                                    <h4>Dolce and Gabbana</h4>
+                                </div>                                                       
+                            </div>                                                                                                                                                      
+                        </div>
+
+                    </div>
+                </div> 
+        	</div>
+        </div> -->
+        
+    </section>
+    
+    <!--Blog Section-->
+    <!--<section id="blog" class="white">
+    	<div class="container">
+        	<div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Our Blog</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div> 
+                    <div class="fa fa-times blog-close-content"></div>
+                    <div id="blog-ajax-content"></div>           
+                    <div id="blogs" class="wow fadeInUp" data-wow-delay="0.5s">
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog1" class="blog-more">
+                            <figure>
+                                <img src="images/blog/1.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">25 Jan</div>
+                        <div class="year">2014</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+    
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog2" class="blog-more">
+                            <figure>
+                                <img src="images/blog/2.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">18 Feb</div>
+                        <div class="year">2014</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog3" class="blog-more">
+                            <figure>
+                                <img src="images/blog/3.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">11 Dec</div>
+                        <div class="year">2014</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                                        
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog4" class="blog-more">
+                            <figure>
+                                <img src="images/blog/4.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">1 Feb</div>
+                        <div class="year">2013</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog5" class="blog-more">
+                            <figure>
+                                <img src="images/blog/5.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">18 Sep</div>
+                        <div class="year">2013</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>   
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog6" class="blog-more">
+                            <figure>
+                                <img src="images/blog/6.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">28 Jan</div>
+                        <div class="year">2013</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                                        
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog7" class="blog-more">
+                            <figure>
+                                <img src="images/blog/7.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">15 Jan</div>
+                        <div class="year">2013</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog8" class="blog-more">
+                            <figure>
+                                <img src="images/blog/8.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">16 Apr</div>
+                        <div class="year">2013</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="index.html#blog9" class="blog-more">
+                            <figure>
+                                <img src="images/blog/9.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">24 Aug</div>
+                        <div class="year">2013</div>
+                        <h4><a href="index.html#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="index.html#">Webyzona</a> | <a href="index.html#">0 Comments</a></div>
+                      </div>
+                                                                          
+                    </div>            
+                </div>
+        	</div>
+        </div>
+        <div class="separator"></div>
+    </section>     -->
+    
+    <!--Contact Section-->
+  <!--  <section id="contactus" class="white contact">
+       
+        <div class="container">
+        	<div class="row">
+            <div class="col-md-12">
+            	<div class="heading">
+                    <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Get in Touch</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+
+                <div id="ContactFormDiv"></div>
+
+                <form class="form-horizontal" method="post" action="http://www.webyzona.com/templates/themeforest/ilove/ajax/sendemail.php" name="ContactForm" id="contact">
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                    </div>
+
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">
+                    </div>
+                  
+                    <div class="col-md-12">
+                      <textarea name="comments" class="form-control" rows="10"></textarea>
+                    </div>
+                    
+                    <div class="col-md-12 btn-normal">
+                        <a href="index.html" id="submit"><span>Submit</span></a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        </div>
+    </section>    -->     
+ 
+
+    <div class="container-fluid">
+        <div class="row"> 
+            <div class="col-12 containerDespedida">
+                <h1>¿Aceptas escribir una nueva historia juntos?</h1>
+            </div>
+        </div>
+    </div>
+
+
+	<!--Footer Section-->
+    <section class="footer">    
+    	
+       <!-- <div class="container-fluid color pattern">
+        	<div class="container">
+            	<div class="row">        	
+                    <div class="col-md-12 footer1">
+                        <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <p class="text-center"><span class="fa fa-twitter fa-5x"></span></p>
+                            <div class="footer-tweet">
+                            </div>
+                        </div>
+                    </div> 
+            	</div>
+            </div>
+    	</div>  -->      
+    	<!--Footer Two-->
+    	<div class="container-fluid dark footer2">
+        	<div class="container">
+            	<div class="row">        	
+                <div class="col-md-12">
+                	<!--<img src="images/logo-grey.png" alt="logo"> -->                  
+                    <p>© Fr4nky2018 Hecho con amor por Frank</p>
+                    <!--<div class="social-icons">
+                    	<ul>
+                            <li class="twitter">
+                            <a href="http://www.twitter.com" target="_blank">Twitter</a>
+                            </li>
+                            
+                            <li class="facebook">
+                            <a href="http://www.facebook.com" target="_blank">Facebook</a>
+                            </li>
+                            
+                            <li class="youtube">
+                            <a href="http://www.youtube.com" target="_blank">YouTube</a>
+                            </li>
+                            
+                            <li class="googleplus">
+                            <a href="http://www.plus.google.com" target="_blank">Google +r</a>
+                            </li>
+                            
+                            <li class="pinterest">
+                            <a href="http://www.pinterest.com/" target="_blank">Pinterest</a>
+                            </li>   
+
+                            <li class="linkedin">
+                            <a href="http://www.linkedin.com" target="_blank">Linkedin</a>
+                            </li>                                                                                                                                               
+                    	</ul>
+                    </div> -->
+                </div>
+            </div>
+            </div>
+    	</div>
+    </section>            
+
+    <!-- Al JS Plugins -->
+    <script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/annyang.min.js"></script>
+    <script src="js/wow.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/smoothscrolling.js"></script>
+    <script src="js/custom.js"></script>    
+	<script src="js/fss.js"></script>      
+    <script src="js/geo.js"></script>      
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slide-fade-content.js"></script>
+    <script src="js/twitter/jquery.tweet.js"></script>
+    <script src="js/prefixfree.js"></script>
+    <script src="js/countup.js"></script>
+    <script src="js/modernizr.hover.js"></script>
+  </body>
+</html>
+
